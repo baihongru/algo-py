@@ -17,8 +17,8 @@
 使用Windows10+VSCode+Jupyter，环境搭建步骤：
 
 1. 安装Python（我使用的版本是：python-3.9.6-amd64）；
-2. 建立学习目录，并在目录中建立虚拟环境`py -m venv venv`；
-3. 激活虚拟环境并安装Jupyter服务模块`cd <learn dir>; .\venv\Scripts\activate; pip install ipykernel`；
+2. 建立学习目录，并在目录中建立虚拟环境`cd <learn dir>; py -m venv venv`；
+3. 激活虚拟环境并安装Jupyter内核`cd <learn dir>; .\venv\Scripts\activate; pip install ipykernel`；
 4. 安装VSCode，安装Python、Jupyter相关的VSCode扩展；
 5. 在VSCode中新建后缀为“.ipynb”的文件，打开该文件后在编辑器右上角选择Jupyter内核，选择
 第3步中虚拟环境中安装的内核，类似“Python 3.9.6 64-bit('venv':venv)”，同时也需要使用快
